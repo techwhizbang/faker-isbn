@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.add_development_dependency(%q<bookland>, ["~> 2.0.0"])
   s.add_development_dependency(%q<rspec>, ["~> 2.12.0"])
+  s.add_development_dependency(%q<rake>, ["~> 10.0.3"])
 end
