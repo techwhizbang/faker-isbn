@@ -1,5 +1,5 @@
 module Faker
-  module ISBN
-    VERSION = "0.0.2"
+  class ISBN
+    VERSION = "0.0.3"
   end
 end
