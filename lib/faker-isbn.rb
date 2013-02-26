@@ -3,7 +3,7 @@ require 'rubygems'
 module Faker
   class ISBN
 
-    def self.thirteen_digit(rand_seed=rand(1000))
+    def self.thirteen_digit(rand_seed=rand(999_999_999))
       isbn_13 = (978000000000+rand_seed).to_s
 
       isbn_array = Array.new
